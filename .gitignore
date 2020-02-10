@@ -1,0 +1,22 @@
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Framework Projects
+app-audit-server
+app-authorization-server
+app-backend-server
+app-frontend-application
+app-i18n-server
+app-notification-server
+app-resource-server
+shared-commons
+shared-dto
+utils-admin-server
+utils-config-server
+utils-discovery-server
+utils-monitoring-application
