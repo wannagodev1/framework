@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ This file is part of the WannaGo distribution (https://github.com/wannagodev1).
+  ~ Copyright (c) [2019] - [2020].
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, version 3.
+  ~
+  ~ This program is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  ~ General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.wannagoframework</groupId>
+    <artifactId>framework</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Wanna Go Framework</name>
+    <modules>
+        <module>shared-dto</module>
+        <module>shared-commons</module>
+
+        <module>app-audit-server</module>
+        <module>app-authorization-server</module>
+        <module>app-notification-server</module>
+        <module>app-resource-server</module>
+        <module>app-i18n-server</module>
+
+        <module>app-backend-server</module>
+        <module>app-frontend-application</module>
+
+        <module>utils-config-server</module>
+        <module>utils-discovery-server</module>
+        <module>utils-monitoring-application</module>
+        <module>utils-admin-server</module>
+    </modules>
+</project>
