@@ -14,4 +14,5 @@ git clone git@github.com:wannagodev1/utils-admin-server.git
 git clone git@github.com:wannagodev1/utils-config-server.git
 git clone git@github.com:wannagodev1/utils-discovery-server.git
 git clone git@github.com:wannagodev1/utils-monitoring-application.git
+git clone git@github.com:wannagodev1/app-base-server.git
 ```
